@@ -47,3 +47,6 @@ npm run doctor
 - 依赖 Python 和 `yt-dlp`
 - 默认下载目录在 `~/.tiktokdl-tui`
 - Windows 建议使用支持 UTF-8 的终端
+
+## 参考项目
+https://github.com/yt-dlp
