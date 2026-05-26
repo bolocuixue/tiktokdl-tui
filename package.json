@@ -1,0 +1,17 @@
+{
+  "name": "tiktokdl-tui",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "tiktokdl-tui": "./src/launcher.js"
+  },
+  "scripts": {
+    "start": "node src/launcher.js",
+    "setup": "python -m pip install -r requirements.txt",
+    "doctor": "node src/launcher.js --doctor"
+  },
+  "dependencies": {
+    "blessed": "^0.1.81"
+  }
+}
